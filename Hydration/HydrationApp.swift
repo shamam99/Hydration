@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct HydrationApp: App {
+    @AppStorage("hasCompletedOnboarding") var hasCompletedOnboarding: Bool = false
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if hasCompletedOnboarding {
+                WaterTrackerView(viewModel: HydrationViewModel(bodyWeight: UserDefaults.standard.double(forKey: "userBodyWeight")))
+            } else {
+                OnboardingScreenOne()
+            }
         }
     }
 }
+
+
+

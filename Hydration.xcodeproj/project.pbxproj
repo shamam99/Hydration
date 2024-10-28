@@ -14,6 +14,12 @@
 		342F14A42CCE13F000128B75 /* HydrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F14A32CCE13F000128B75 /* HydrationTests.swift */; };
 		342F14AE2CCE13F000128B75 /* HydrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F14AD2CCE13F000128B75 /* HydrationUITests.swift */; };
 		342F14B02CCE13F000128B75 /* HydrationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F14AF2CCE13F000128B75 /* HydrationUITestsLaunchTests.swift */; };
+		342F14BD2CCE146300128B75 /* HydrationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F14BC2CCE146300128B75 /* HydrationData.swift */; };
+		342F14BF2CCE14F300128B75 /* NotificationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F14BE2CCE14F300128B75 /* NotificationSettings.swift */; };
+		342F14C12CCE152400128B75 /* HydrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F14C02CCE152400128B75 /* HydrationViewModel.swift */; };
+		342F14C32CCE15A300128B75 /* OnboardingScreenOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F14C22CCE15A300128B75 /* OnboardingScreenOne.swift */; };
+		342F14C52CCE167C00128B75 /* NotificationPreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F14C42CCE167C00128B75 /* NotificationPreferencesView.swift */; };
+		342F14C72CCE169E00128B75 /* WaterTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F14C62CCE169E00128B75 /* WaterTrackerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		342F14A92CCE13F000128B75 /* HydrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		342F14AD2CCE13F000128B75 /* HydrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationUITests.swift; sourceTree = "<group>"; };
 		342F14AF2CCE13F000128B75 /* HydrationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		342F14BC2CCE146300128B75 /* HydrationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationData.swift; sourceTree = "<group>"; };
+		342F14BE2CCE14F300128B75 /* NotificationSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettings.swift; sourceTree = "<group>"; };
+		342F14C02CCE152400128B75 /* HydrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationViewModel.swift; sourceTree = "<group>"; };
+		342F14C22CCE15A300128B75 /* OnboardingScreenOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreenOne.swift; sourceTree = "<group>"; };
+		342F14C42CCE167C00128B75 /* NotificationPreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPreferencesView.swift; sourceTree = "<group>"; };
+		342F14C62CCE169E00128B75 /* WaterTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +110,12 @@
 				342F14942CCE13EE00128B75 /* ContentView.swift */,
 				342F14962CCE13EF00128B75 /* Assets.xcassets */,
 				342F14982CCE13EF00128B75 /* Preview Content */,
+				342F14BC2CCE146300128B75 /* HydrationData.swift */,
+				342F14BE2CCE14F300128B75 /* NotificationSettings.swift */,
+				342F14C02CCE152400128B75 /* HydrationViewModel.swift */,
+				342F14C22CCE15A300128B75 /* OnboardingScreenOne.swift */,
+				342F14C42CCE167C00128B75 /* NotificationPreferencesView.swift */,
+				342F14C62CCE169E00128B75 /* WaterTrackerView.swift */,
 			);
 			path = Hydration;
 			sourceTree = "<group>";
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342F14C12CCE152400128B75 /* HydrationViewModel.swift in Sources */,
 				342F14952CCE13EE00128B75 /* ContentView.swift in Sources */,
+				342F14BF2CCE14F300128B75 /* NotificationSettings.swift in Sources */,
+				342F14C72CCE169E00128B75 /* WaterTrackerView.swift in Sources */,
+				342F14C52CCE167C00128B75 /* NotificationPreferencesView.swift in Sources */,
+				342F14C32CCE15A300128B75 /* OnboardingScreenOne.swift in Sources */,
 				342F14932CCE13EE00128B75 /* HydrationApp.swift in Sources */,
+				342F14BD2CCE146300128B75 /* HydrationData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
