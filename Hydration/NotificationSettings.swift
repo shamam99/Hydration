@@ -28,7 +28,7 @@ struct NotificationSettings {
         case "3 Hours": return 3 * 60 * 60
         case "4 Hours": return 4 * 60 * 60
         case "5 Hours": return 5 * 60 * 60
-        default: return 5 
+        default: return 5
         }
     }
 }

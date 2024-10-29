@@ -19,3 +19,4 @@ struct HydrationData {
         self.currentIntake = currentIntake
     }
 }
+

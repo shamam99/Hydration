@@ -11,6 +11,7 @@ struct OnboardingScreenOne: View {
     @State private var bodyWeight: String = ""
     @State private var navigateToNotificationScreen = false
     @State private var showAlert = false
+    @AppStorage("hasCompletedOnboarding") var hasCompletedOnboarding: Bool = false
 
     var body: some View {
         NavigationView {
@@ -81,6 +82,7 @@ struct OnboardingScreenOne: View {
                         showAlert = true
                     } else {
                         UserDefaults.standard.set(Double(bodyWeight), forKey: "userBodyWeight")
+                        hasCompletedOnboarding = true // Mark onboarding as complete
                         navigateToNotificationScreen = true
                     }
                 }) {
@@ -107,9 +109,11 @@ struct OnboardingScreenOne: View {
     }
 }
 
+
 struct OnboardingScreenOne_Previews: PreviewProvider {
     static var previews: some View {
         OnboardingScreenOne()
     }
 }
+
 
